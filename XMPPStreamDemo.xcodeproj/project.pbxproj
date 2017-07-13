@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1379C0C140FBDE6CFCA5858A /* Pods_XMPPStreamDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE915A3D0323885BE0C9C21 /* Pods_XMPPStreamDemo.framework */; };
+		81319DD61F160958000A945F /* HBXIMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81319DD51F160958000A945F /* HBXIMFirstViewController.m */; };
+		81657E791F17BA8200CD6546 /* HBXUserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81657E781F17BA8200CD6546 /* HBXUserCenterViewController.m */; };
+		81657E7C1F17BA9000CD6546 /* HBXFoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81657E7B1F17BA9000CD6546 /* HBXFoundViewController.m */; };
+		81657E7F1F17BAA200CD6546 /* HBXContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81657E7E1F17BAA200CD6546 /* HBXContactsViewController.m */; };
+		8175AAE61F14F19B004DFE27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8175AAE51F14F19B004DFE27 /* main.m */; };
+		8175AAE91F14F19B004DFE27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8175AAE81F14F19B004DFE27 /* AppDelegate.m */; };
+		8175AAEC1F14F19B004DFE27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8175AAEB1F14F19B004DFE27 /* ViewController.m */; };
+		8175AAEF1F14F19B004DFE27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8175AAED1F14F19B004DFE27 /* Main.storyboard */; };
+		8175AAF11F14F19B004DFE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8175AAF01F14F19B004DFE27 /* Assets.xcassets */; };
+		8175AAF41F14F19B004DFE27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8175AAF21F14F19B004DFE27 /* LaunchScreen.storyboard */; };
+		817B22BD1F1761AC00F2C8C8 /* HBXXMPPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 817B22BC1F1761AC00F2C8C8 /* HBXXMPPTool.m */; };
+		817E36BC1F177D8E0077C80D /* HBXMisManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 817E36BB1F177D8E0077C80D /* HBXMisManager.m */; };
+		81A5DE301F15F7F900C9E971 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A5DE2F1F15F7F900C9E971 /* CFNetwork.framework */; };
+		81A5DE321F15F80900C9E971 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A5DE311F15F80900C9E971 /* Security.framework */; };
+		81A5DE341F15F8A100C9E971 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A5DE331F15F8A100C9E971 /* SystemConfiguration.framework */; };
+		81A5DE361F15F8AF00C9E971 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A5DE351F15F8AF00C9E971 /* libxml2.tbd */; };
+		81A5DE381F15F8D200C9E971 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A5DE371F15F8D200C9E971 /* libresolv.tbd */; };
+		81DE6A091F17218B003649FC /* HBXLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DE6A071F17218B003649FC /* HBXLoginViewController.m */; };
+		81DE6A0A1F17218B003649FC /* HBXLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81DE6A081F17218B003649FC /* HBXLoginViewController.xib */; };
+		81DE6C341F175E97003649FC /* HBXUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DE6C331F175E97003649FC /* HBXUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B601DAFBA83B3CEDEC2EA1F /* Pods-XMPPStreamDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPStreamDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMPPStreamDemo/Pods-XMPPStreamDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		81319DD41F160958000A945F /* HBXIMFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBXIMFirstViewController.h; sourceTree = "<group>"; };
+		81319DD51F160958000A945F /* HBXIMFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBXIMFirstViewController.m; sourceTree = "<group>"; };
+		81657E771F17BA8200CD6546 /* HBXUserCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBXUserCenterViewController.h; sourceTree = "<group>"; };
+		81657E781F17BA8200CD6546 /* HBXUserCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBXUserCenterViewController.m; sourceTree = "<group>"; };
+		81657E7A1F17BA9000CD6546 /* HBXFoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBXFoundViewController.h; sourceTree = "<group>"; };
+		81657E7B1F17BA9000CD6546 /* HBXFoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBXFoundViewController.m; sourceTree = "<group>"; };
+		81657E7D1F17BAA200CD6546 /* HBXContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBXContactsViewController.h; sourceTree = "<group>"; };
+		81657E7E1F17BAA200CD6546 /* HBXContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBXContactsViewController.m; sourceTree = "<group>"; };
+		8175AAE11F14F19B004DFE27 /* XMPPStreamDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMPPStreamDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8175AAE51F14F19B004DFE27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8175AAE71F14F19B004DFE27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8175AAE81F14F19B004DFE27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8175AAEA1F14F19B004DFE27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8175AAEB1F14F19B004DFE27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8175AAEE1F14F19B004DFE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8175AAF01F14F19B004DFE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8175AAF31F14F19B004DFE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8175AAF51F14F19B004DFE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		817B22BB1F1761AC00F2C8C8 /* HBXXMPPTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBXXMPPTool.h; sourceTree = "<group>"; };
+		817B22BC1F1761AC00F2C8C8 /* HBXXMPPTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBXXMPPTool.m; sourceTree = "<group>"; };
+		817E36BA1F177D8E0077C80D /* HBXMisManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBXMisManager.h; sourceTree = "<group>"; };
+		817E36BB1F177D8E0077C80D /* HBXMisManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBXMisManager.m; sourceTree = "<group>"; };
+		81A5DE2F1F15F7F900C9E971 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		81A5DE311F15F80900C9E971 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		81A5DE331F15F8A100C9E971 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		81A5DE351F15F8AF00C9E971 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		81A5DE371F15F8D200C9E971 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		81DE6A061F17218B003649FC /* HBXLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBXLoginViewController.h; sourceTree = "<group>"; };
+		81DE6A071F17218B003649FC /* HBXLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBXLoginViewController.m; sourceTree = "<group>"; };
+		81DE6A081F17218B003649FC /* HBXLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBXLoginViewController.xib; sourceTree = "<group>"; };
+		81DE6C311F175980003649FC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		81DE6C321F175E97003649FC /* HBXUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBXUtil.h; sourceTree = "<group>"; };
+		81DE6C331F175E97003649FC /* HBXUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBXUtil.m; sourceTree = "<group>"; };
+		81DE6C351F175EC8003649FC /* globalHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = globalHeader.h; sourceTree = "<group>"; };
+		CAB21D00E7FFFEA8D1AB3689 /* Pods-XMPPStreamDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPStreamDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMPPStreamDemo/Pods-XMPPStreamDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CEE915A3D0323885BE0C9C21 /* Pods_XMPPStreamDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMPPStreamDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8175AADE1F14F19B004DFE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A5DE381F15F8D200C9E971 /* libresolv.tbd in Frameworks */,
+				81A5DE361F15F8AF00C9E971 /* libxml2.tbd in Frameworks */,
+				81A5DE341F15F8A100C9E971 /* SystemConfiguration.framework in Frameworks */,
+				81A5DE321F15F80900C9E971 /* Security.framework in Frameworks */,
+				81A5DE301F15F7F900C9E971 /* CFNetwork.framework in Frameworks */,
+				1379C0C140FBDE6CFCA5858A /* Pods_XMPPStreamDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7ECBF987FEEF109956AB4500 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81A5DE371F15F8D200C9E971 /* libresolv.tbd */,
+				81A5DE351F15F8AF00C9E971 /* libxml2.tbd */,
+				81A5DE331F15F8A100C9E971 /* SystemConfiguration.framework */,
+				81A5DE311F15F80900C9E971 /* Security.framework */,
+				81A5DE2F1F15F7F900C9E971 /* CFNetwork.framework */,
+				CEE915A3D0323885BE0C9C21 /* Pods_XMPPStreamDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81657E641F17B9C100CD6546 /* contacts */ = {
+			isa = PBXGroup;
+			children = (
+				81657E711F17BA5C00CD6546 /* Controller */,
+				81657E721F17BA5C00CD6546 /* model */,
+				81657E731F17BA5C00CD6546 /* view */,
+			);
+			path = contacts;
+			sourceTree = "<group>";
+		};
+		81657E651F17B9CF00CD6546 /* userCenter */ = {
+			isa = PBXGroup;
+			children = (
+				81657E741F17BA6800CD6546 /* Controller */,
+				81657E751F17BA6800CD6546 /* model */,
+				81657E761F17BA6800CD6546 /* view */,
+			);
+			path = userCenter;
+			sourceTree = "<group>";
+		};
+		81657E661F17B9E700CD6546 /* found */ = {
+			isa = PBXGroup;
+			children = (
+				81657E6B1F17BA1800CD6546 /* Controller */,
+				81657E6C1F17BA1800CD6546 /* model */,
+				81657E6D1F17BA1800CD6546 /* view */,
+			);
+			path = found;
+			sourceTree = "<group>";
+		};
+		81657E671F17B9EF00CD6546 /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				81657E681F17BA1300CD6546 /* Controller */,
+				81657E691F17BA1300CD6546 /* model */,
+				81657E6A1F17BA1300CD6546 /* view */,
+			);
+			path = chat;
+			sourceTree = "<group>";
+		};
+		81657E681F17BA1300CD6546 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		81657E691F17BA1300CD6546 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		81657E6A1F17BA1300CD6546 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		81657E6B1F17BA1800CD6546 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				81657E7A1F17BA9000CD6546 /* HBXFoundViewController.h */,
+				81657E7B1F17BA9000CD6546 /* HBXFoundViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		81657E6C1F17BA1800CD6546 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		81657E6D1F17BA1800CD6546 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		81657E711F17BA5C00CD6546 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				81657E7D1F17BAA200CD6546 /* HBXContactsViewController.h */,
+				81657E7E1F17BAA200CD6546 /* HBXContactsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		81657E721F17BA5C00CD6546 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		81657E731F17BA5C00CD6546 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		81657E741F17BA6800CD6546 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				81657E771F17BA8200CD6546 /* HBXUserCenterViewController.h */,
+				81657E781F17BA8200CD6546 /* HBXUserCenterViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		81657E751F17BA6800CD6546 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		81657E761F17BA6800CD6546 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		8175AAD81F14F19B004DFE27 = {
+			isa = PBXGroup;
+			children = (
+				8175AAE31F14F19B004DFE27 /* XMPPStreamDemo */,
+				8175AAE21F14F19B004DFE27 /* Products */,
+				8928562E932A41921C9AADC1 /* Pods */,
+				7ECBF987FEEF109956AB4500 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8175AAE21F14F19B004DFE27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8175AAE11F14F19B004DFE27 /* XMPPStreamDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8175AAE31F14F19B004DFE27 /* XMPPStreamDemo */ = {
+			isa = PBXGroup;
+			children = (
+				81DE69FA1F1720D0003649FC /* src */,
+				8175AAE71F14F19B004DFE27 /* AppDelegate.h */,
+				8175AAE81F14F19B004DFE27 /* AppDelegate.m */,
+				81319DD41F160958000A945F /* HBXIMFirstViewController.h */,
+				81319DD51F160958000A945F /* HBXIMFirstViewController.m */,
+				8175AAEA1F14F19B004DFE27 /* ViewController.h */,
+				8175AAEB1F14F19B004DFE27 /* ViewController.m */,
+				8175AAED1F14F19B004DFE27 /* Main.storyboard */,
+				8175AAF01F14F19B004DFE27 /* Assets.xcassets */,
+				8175AAF21F14F19B004DFE27 /* LaunchScreen.storyboard */,
+				8175AAF51F14F19B004DFE27 /* Info.plist */,
+				8175AAE41F14F19B004DFE27 /* Supporting Files */,
+			);
+			path = XMPPStreamDemo;
+			sourceTree = "<group>";
+		};
+		8175AAE41F14F19B004DFE27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8175AAE51F14F19B004DFE27 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		817B22B61F17618B00F2C8C8 /* center */ = {
+			isa = PBXGroup;
+			children = (
+				817B22BB1F1761AC00F2C8C8 /* HBXXMPPTool.h */,
+				817B22BC1F1761AC00F2C8C8 /* HBXXMPPTool.m */,
+				817E36BA1F177D8E0077C80D /* HBXMisManager.h */,
+				817E36BB1F177D8E0077C80D /* HBXMisManager.m */,
+			);
+			path = center;
+			sourceTree = "<group>";
+		};
+		81DE69FA1F1720D0003649FC /* src */ = {
+			isa = PBXGroup;
+			children = (
+				817B22B61F17618B00F2C8C8 /* center */,
+				81DE69FD1F172105003649FC /* common */,
+				81DE69FC1F1720F2003649FC /* app */,
+				81DE69FB1F1720DA003649FC /* page */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		81DE69FB1F1720DA003649FC /* page */ = {
+			isa = PBXGroup;
+			children = (
+				81657E671F17B9EF00CD6546 /* chat */,
+				81657E661F17B9E700CD6546 /* found */,
+				81657E651F17B9CF00CD6546 /* userCenter */,
+				81657E641F17B9C100CD6546 /* contacts */,
+				81DE6A011F172152003649FC /* login */,
+			);
+			path = page;
+			sourceTree = "<group>";
+		};
+		81DE69FC1F1720F2003649FC /* app */ = {
+			isa = PBXGroup;
+			children = (
+				81DE6C311F175980003649FC /* PrefixHeader.pch */,
+				81DE6C351F175EC8003649FC /* globalHeader.h */,
+				81DE6C321F175E97003649FC /* HBXUtil.h */,
+				81DE6C331F175E97003649FC /* HBXUtil.m */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		81DE69FD1F172105003649FC /* common */ = {
+			isa = PBXGroup;
+			children = (
+				81DE6A001F17212C003649FC /* controller */,
+				81DE69FF1F172123003649FC /* model */,
+				81DE69FE1F172116003649FC /* View */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		81DE69FE1F172116003649FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		81DE69FF1F172123003649FC /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		81DE6A001F17212C003649FC /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		81DE6A011F172152003649FC /* login */ = {
+			isa = PBXGroup;
+			children = (
+				81DE6A021F172152003649FC /* controller */,
+				81DE6A031F172152003649FC /* model */,
+				81DE6A051F172152003649FC /* view */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		81DE6A021F172152003649FC /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				81DE6A061F17218B003649FC /* HBXLoginViewController.h */,
+				81DE6A071F17218B003649FC /* HBXLoginViewController.m */,
+				81DE6A081F17218B003649FC /* HBXLoginViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		81DE6A031F172152003649FC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				81DE6A041F172152003649FC /* controller */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		81DE6A041F172152003649FC /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		81DE6A051F172152003649FC /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		8928562E932A41921C9AADC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B601DAFBA83B3CEDEC2EA1F /* Pods-XMPPStreamDemo.debug.xcconfig */,
+				CAB21D00E7FFFEA8D1AB3689 /* Pods-XMPPStreamDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8175AAE01F14F19B004DFE27 /* XMPPStreamDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8175AAF81F14F19B004DFE27 /* Build configuration list for PBXNativeTarget "XMPPStreamDemo" */;
+			buildPhases = (
+				16CD9B1017AF804195DDE010 /* [CP] Check Pods Manifest.lock */,
+				8175AADD1F14F19B004DFE27 /* Sources */,
+				8175AADE1F14F19B004DFE27 /* Frameworks */,
+				8175AADF1F14F19B004DFE27 /* Resources */,
+				8D6FD2093633F9B46582E522 /* [CP] Embed Pods Frameworks */,
+				2CD6CAF8F2468E36C69CF523 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMPPStreamDemo;
+			productName = XMPPStreamDemo;
+			productReference = 8175AAE11F14F19B004DFE27 /* XMPPStreamDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8175AAD91F14F19B004DFE27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "黄保贤";
+				TargetAttributes = {
+					8175AAE01F14F19B004DFE27 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = N59KJ676HE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8175AADC1F14F19B004DFE27 /* Build configuration list for PBXProject "XMPPStreamDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8175AAD81F14F19B004DFE27;
+			productRefGroup = 8175AAE21F14F19B004DFE27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8175AAE01F14F19B004DFE27 /* XMPPStreamDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8175AADF1F14F19B004DFE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8175AAF41F14F19B004DFE27 /* LaunchScreen.storyboard in Resources */,
+				81DE6A0A1F17218B003649FC /* HBXLoginViewController.xib in Resources */,
+				8175AAF11F14F19B004DFE27 /* Assets.xcassets in Resources */,
+				8175AAEF1F14F19B004DFE27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16CD9B1017AF804195DDE010 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XMPPStreamDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CD6CAF8F2468E36C69CF523 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XMPPStreamDemo/Pods-XMPPStreamDemo-resources.sh",
+				"${PODS_ROOT}/XMPPFramework/Extensions/Roster/CoreDataStorage/XMPPRoster.xcdatamodel",
+				"${PODS_ROOT}/XMPPFramework/Extensions/XEP-0045/CoreDataStorage/XMPPRoom.xcdatamodeld",
+				"${PODS_ROOT}/XMPPFramework/Extensions/XEP-0045/CoreDataStorage/XMPPRoom.xcdatamodeld/XMPPRoom.xcdatamodel",
+				"${PODS_ROOT}/XMPPFramework/Extensions/XEP-0045/HybridStorage/XMPPRoomHybrid.xcdatamodeld",
+				"${PODS_ROOT}/XMPPFramework/Extensions/XEP-0045/HybridStorage/XMPPRoomHybrid.xcdatamodeld/XMPPRoomHybrid.xcdatamodel",
+				"${PODS_ROOT}/XMPPFramework/Extensions/XEP-0054/CoreDataStorage/XMPPvCard.xcdatamodeld",
+				"${PODS_ROOT}/XMPPFramework/Extensions/XEP-0054/CoreDataStorage/XMPPvCard.xcdatamodeld/XMPPvCard.xcdatamodel",
+				"${PODS_ROOT}/XMPPFramework/Extensions/XEP-0115/CoreDataStorage/XMPPCapabilities.xcdatamodel",
+				"${PODS_ROOT}/XMPPFramework/Extensions/XEP-0136/CoreDataStorage/XMPPMessageArchiving.xcdatamodeld",
+				"${PODS_ROOT}/XMPPFramework/Extensions/XEP-0136/CoreDataStorage/XMPPMessageArchiving.xcdatamodeld/XMPPMessageArchiving.xcdatamodel",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMPPStreamDemo/Pods-XMPPStreamDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D6FD2093633F9B46582E522 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XMPPStreamDemo/Pods-XMPPStreamDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/KissXML/KissXML.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/XMPPFramework/XMPPFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/libidn/libidn.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KissXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMPPFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libidn.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMPPStreamDemo/Pods-XMPPStreamDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8175AADD1F14F19B004DFE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817E36BC1F177D8E0077C80D /* HBXMisManager.m in Sources */,
+				81657E791F17BA8200CD6546 /* HBXUserCenterViewController.m in Sources */,
+				81319DD61F160958000A945F /* HBXIMFirstViewController.m in Sources */,
+				8175AAEC1F14F19B004DFE27 /* ViewController.m in Sources */,
+				81657E7C1F17BA9000CD6546 /* HBXFoundViewController.m in Sources */,
+				817B22BD1F1761AC00F2C8C8 /* HBXXMPPTool.m in Sources */,
+				81DE6A091F17218B003649FC /* HBXLoginViewController.m in Sources */,
+				8175AAE91F14F19B004DFE27 /* AppDelegate.m in Sources */,
+				81DE6C341F175E97003649FC /* HBXUtil.m in Sources */,
+				81657E7F1F17BAA200CD6546 /* HBXContactsViewController.m in Sources */,
+				8175AAE61F14F19B004DFE27 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8175AAED1F14F19B004DFE27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8175AAEE1F14F19B004DFE27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8175AAF21F14F19B004DFE27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8175AAF31F14F19B004DFE27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8175AAF61F14F19B004DFE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8175AAF71F14F19B004DFE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8175AAF91F14F19B004DFE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B601DAFBA83B3CEDEC2EA1F /* Pods-XMPPStreamDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N59KJ676HE;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XMPPStreamDemo/src/app/PrefixHeader.pch";
+				INFOPLIST_FILE = XMPPStreamDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..XMPPStreamDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = /usr/include/libxml2;
+			};
+			name = Debug;
+		};
+		8175AAFA1F14F19B004DFE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB21D00E7FFFEA8D1AB3689 /* Pods-XMPPStreamDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N59KJ676HE;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XMPPStreamDemo/src/app/PrefixHeader.pch";
+				INFOPLIST_FILE = XMPPStreamDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..XMPPStreamDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = /usr/include/libxml2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8175AADC1F14F19B004DFE27 /* Build configuration list for PBXProject "XMPPStreamDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8175AAF61F14F19B004DFE27 /* Debug */,
+				8175AAF71F14F19B004DFE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8175AAF81F14F19B004DFE27 /* Build configuration list for PBXNativeTarget "XMPPStreamDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8175AAF91F14F19B004DFE27 /* Debug */,
+				8175AAFA1F14F19B004DFE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8175AAD91F14F19B004DFE27 /* Project object */;
+}

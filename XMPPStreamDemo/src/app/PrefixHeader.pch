@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  XMPPStreamDemo
+//
+//  Created by 黄保贤 on 2017/7/13.
+//  Copyright © 2017年 黄保贤. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "globalHeader.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//src/app/PrefixHeader.pch
+
+#define  XMPP_HOST  @"192.168.199.162"
+#define  USER_NAME(user)   [NSString stringWithFormat:@"%@@%@",user,[[HBXMisManager instance] getHost]]
+
+
+#endif /* PrefixHeader_pch */
