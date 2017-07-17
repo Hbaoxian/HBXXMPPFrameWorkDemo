@@ -12,6 +12,7 @@
 		81657E791F17BA8200CD6546 /* HBXUserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81657E781F17BA8200CD6546 /* HBXUserCenterViewController.m */; };
 		81657E7C1F17BA9000CD6546 /* HBXFoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81657E7B1F17BA9000CD6546 /* HBXFoundViewController.m */; };
 		81657E7F1F17BAA200CD6546 /* HBXContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81657E7E1F17BAA200CD6546 /* HBXContactsViewController.m */; };
+		81657E821F1CFCED00CD6546 /* HBXChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81657E811F1CFCED00CD6546 /* HBXChatViewController.m */; };
 		8175AAE61F14F19B004DFE27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8175AAE51F14F19B004DFE27 /* main.m */; };
 		8175AAE91F14F19B004DFE27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8175AAE81F14F19B004DFE27 /* AppDelegate.m */; };
 		8175AAEC1F14F19B004DFE27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8175AAEB1F14F19B004DFE27 /* ViewController.m */; };
@@ -40,6 +41,8 @@
 		81657E7B1F17BA9000CD6546 /* HBXFoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBXFoundViewController.m; sourceTree = "<group>"; };
 		81657E7D1F17BAA200CD6546 /* HBXContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBXContactsViewController.h; sourceTree = "<group>"; };
 		81657E7E1F17BAA200CD6546 /* HBXContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBXContactsViewController.m; sourceTree = "<group>"; };
+		81657E801F1CFCED00CD6546 /* HBXChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HBXChatViewController.h; path = XMPPStreamDemo/src/page/chat/controller/HBXChatViewController.h; sourceTree = SOURCE_ROOT; };
+		81657E811F1CFCED00CD6546 /* HBXChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HBXChatViewController.m; path = XMPPStreamDemo/src/page/chat/controller/HBXChatViewController.m; sourceTree = SOURCE_ROOT; };
 		8175AAE11F14F19B004DFE27 /* XMPPStreamDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMPPStreamDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8175AAE51F14F19B004DFE27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8175AAE71F14F19B004DFE27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -143,6 +146,8 @@
 		81657E681F17BA1300CD6546 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				81657E801F1CFCED00CD6546 /* HBXChatViewController.h */,
+				81657E811F1CFCED00CD6546 /* HBXChatViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -561,6 +566,7 @@
 				817E36BC1F177D8E0077C80D /* HBXMisManager.m in Sources */,
 				81657E791F17BA8200CD6546 /* HBXUserCenterViewController.m in Sources */,
 				81319DD61F160958000A945F /* HBXIMFirstViewController.m in Sources */,
+				81657E821F1CFCED00CD6546 /* HBXChatViewController.m in Sources */,
 				8175AAEC1F14F19B004DFE27 /* ViewController.m in Sources */,
 				81657E7C1F17BA9000CD6546 /* HBXFoundViewController.m in Sources */,
 				817B22BD1F1761AC00F2C8C8 /* HBXXMPPTool.m in Sources */,

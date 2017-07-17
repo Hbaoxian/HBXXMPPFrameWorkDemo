@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "HBXIMFirstViewController.h"
+#import "HBXChatViewController.h"
 #import "HBXXMPPTool.h"
 
 
@@ -73,24 +73,31 @@
 
     self.window.rootViewController = nil;
     
-    HBXIMFirstViewController *vc = [[HBXIMFirstViewController alloc] init];
-    
+    HBXChatViewController *vc = [[HBXChatViewController alloc] init];
+    vc.tabBarItem.image =  [HBXUtil getImage:@"tabbar_mainframe"];
+    vc.tabBarItem.selectedImage =  [HBXUtil getImage:@"tabbar_mainframeHL"];
     UINavigationController *naVC = [[UINavigationController alloc] initWithRootViewController:vc];
     
    
     HBXContactsViewController *vc2 = [[HBXContactsViewController alloc] init];
-    
+    vc2.title = @"联系人";
+    vc2.tabBarItem.image = [HBXUtil getImage:@"tabbar_contacts"];
+    vc2.tabBarItem.selectedImage = [HBXUtil getImage:@"tabbar_contactsHL"];
     UINavigationController *naVC2 = [[UINavigationController alloc] initWithRootViewController:vc2];
 
     
     HBXFoundViewController *vc3 = [[HBXFoundViewController alloc] init];
-    
+    vc3.title = @"发现";
+    vc3.tabBarItem.image = [HBXUtil getImage:@"tabbar_discover"];
+    vc3.tabBarItem.selectedImage = [HBXUtil getImage:@"tabbar_discoverHL"];
     UINavigationController *naVC3 = [[UINavigationController alloc] initWithRootViewController:vc3];
 
     
     
     HBXUserCenterViewController *vc4 = [[HBXUserCenterViewController alloc] init];
-    
+    vc4.title = @"我";
+    vc4.tabBarItem.image = [HBXUtil getImage:@"tabbar_me"];
+    vc4.tabBarItem.selectedImage = [HBXUtil getImage:@"tabbar_meHL"];
     UINavigationController *naVC4 = [[UINavigationController alloc] initWithRootViewController:vc4];
 
     
@@ -100,7 +107,6 @@
     
      self.window.rootViewController = tabVC;
 }
-
 
 
 
