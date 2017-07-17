@@ -19,5 +19,6 @@
 #import "HBXContactsViewController.h"
 #import "HBXFoundViewController.h"
 #import <XMPPFramework/XMPPFramework.h>
+#import "HBXChatViewController.h"
 
 #endif /* globalHeader_h */

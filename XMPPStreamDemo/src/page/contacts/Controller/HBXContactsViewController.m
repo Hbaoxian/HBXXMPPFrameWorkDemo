@@ -182,6 +182,23 @@
 #pragma mark -table
 #pragma mark -tableViewDelegate
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    HBXChatViewController *chatVC = [[HBXChatViewController alloc] init];
+    chatVC.userName = self.friendArray[indexPath.row];
+    [self.navigationController pushViewController:chatVC animated:YES];
+    
+}
+
+#pragma mark -datasoruce
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    
+    return self.friendArray.count;
+    
+}
+
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     static NSString *contactsCell = @"contactsCell";
@@ -195,16 +212,6 @@
     
     return cell;
 }
-
-
-#pragma mark -datasoruce
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    
-    return self.friendArray.count;
-    
-}
-
 
 
 - (UITableView *)tableView {
