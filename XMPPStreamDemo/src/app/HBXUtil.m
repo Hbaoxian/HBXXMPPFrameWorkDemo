@@ -14,5 +14,18 @@
     [[[UIAlertView alloc] initWithTitle:tile message:message delegate:nil cancelButtonTitle:@"确定" otherButtonTitles: nil] show];
 }
 
++ (UIImage *)getImage:(NSString *)imageName  {
+    UIImage *image = [UIImage imageNamed:imageName];
+    image = [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    return image;
+}
+
++ (BOOL)isTelphoneNum:(NSString *)text {
+    
+    NSString *telRegex = @"^1[3578]\\d{9}$";
+    NSPredicate *prediate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", telRegex];
+    return [prediate evaluateWithObject:text];
+}
+
 
 @end

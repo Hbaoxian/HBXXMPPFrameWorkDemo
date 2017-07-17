@@ -13,8 +13,9 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 //src/app/PrefixHeader.pch
 
-#define  XMPP_HOST  @"192.168.199.162"
+#define  XMPP_HOST  @"172.16.140.120"
 #define  USER_NAME(user)   [NSString stringWithFormat:@"%@@%@",user,[[HBXMisManager instance] getHost]]
 
+#define HBXLogNet(frmt, ...)  NSLog((@"[NET] %@,[Line %d],%@ " frmt), THIS_FILE,__LINE__,THIS_METHOD,  ##__VA_ARGS__)
 
 #endif /* PrefixHeader_pch */

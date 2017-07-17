@@ -12,6 +12,10 @@ static HBXMisManager *_misManger = nil;
 
 
 static NSString *HBX_HOST_KEY = @"HBX_HOST_KEY";
+static NSString *HBX_ACCOUNT_NAME_KEY = @"HBX_ACCOUNT_NAME_KEY";
+
+static NSString *HBX_PASSWORD_KEY = @"HBX_PASSWORD_KEY";
+
 
 @implementation HBXMisManager
 
@@ -45,6 +49,34 @@ static NSString *HBX_HOST_KEY = @"HBX_HOST_KEY";
 
 - (void)setHost:(NSString *)host {
     [self storedata:host key:HBX_HOST_KEY];
+}
+
+- (void)removeHost {
+    [self removeObejct:HBX_HOST_KEY];
+    
+}
+
+#pragma mark -- 账号密码存储
+
+- (NSString *)getAccoutName {
+    return [self getStringValue:HBX_ACCOUNT_NAME_KEY];
+}
+- (void)setAccount:(NSString *)account {
+    [self storedata:account key:HBX_ACCOUNT_NAME_KEY];
+}
+- (void)removeAccount {
+    [self removeObejct:HBX_ACCOUNT_NAME_KEY];
+}
+
+- (NSString *)getPassword {
+    return [self getStringValue:HBX_PASSWORD_KEY];
+}
+
+- (void)setPassword:(NSString *)password {
+    [self storedata:password key: HBX_PASSWORD_KEY];
+}
+- (void)removePassword {
+    [self removeObejct:HBX_PASSWORD_KEY];
 }
 
 

@@ -13,6 +13,8 @@
 
 + (void)alertTitle:(NSString *)tile message:(NSString *)message;
 
-
++ (UIImage *)getImage:(NSString *)imageName;
+//正则匹配电话好拿
++ (BOOL)isTelphoneNum:(NSString *)text;
 
 @end

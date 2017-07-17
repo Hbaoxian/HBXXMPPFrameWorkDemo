@@ -13,9 +13,11 @@
 #import "HBXXMPPTool.h"
 #import "HBXMisManager.h"
 #import "HBXLoginViewController.h"
-#import "HBXIMFirstViewController.h"
+#import "HBXChatViewController.h"
 #import "AppDelegate.h"
 #import "HBXUserCenterViewController.h"
 #import "HBXContactsViewController.h"
 #import "HBXFoundViewController.h"
+#import <XMPPFramework/XMPPFramework.h>
+
 #endif /* globalHeader_h */

@@ -28,6 +28,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.AccountTextfiled.text = [[HBXMisManager instance] getAccoutName];
+    self.passWordTextfiled.text = [[HBXMisManager instance] getPassword];
+    
    
 }
 
@@ -55,6 +58,18 @@
     AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
     [delegate handleMainViewController];
     
+    [[HBXMisManager instance] setAccount:self.AccountTextfiled.text];
+    [[HBXMisManager instance] setPassword:self.passWordTextfiled.text];
+    
+}
+
+- (void)HBXRegisterServerSuccess {
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    [delegate handleMainViewController];
+    
+    [[HBXMisManager instance] setAccount:self.AccountTextfiled.text];
+    [[HBXMisManager instance] setPassword:self.passWordTextfiled.text];
+
 }
 
 
@@ -72,7 +87,8 @@
          [HBXUtil alertTitle:@"提示" message:@"请输入密码"];
     }
     
-    [[HBXXMPPTool instance] connect:self.AccountTextfiled.text passWord:self.passWordTextfiled.text];
+    [[HBXXMPPTool instance] connect:self.AccountTextfiled.text
+                           passWord:self.passWordTextfiled.text];
     
 }
 
@@ -80,8 +96,22 @@
 #pragma mark registerAction
 
 - (IBAction)registerClick:(id)sender {
+    [self.view endEditing:NO];
     
+    if (!self.AccountTextfiled.text.length) {
+        [HBXUtil alertTitle:@"提示" message:@"请输入账号"];
+    }
+    
+    if (!self.passWordTextfiled.text.length) {
+        [HBXUtil alertTitle:@"提示" message:@"请输入密码"];
+    }
+    
+    [[HBXXMPPTool instance] registerConnect:self.AccountTextfiled.text
+                                   password:self.passWordTextfiled.text];
+   
     
     
 }
+
+
 @end

@@ -21,4 +21,19 @@
 - (void)removeHost;
 
 
+
+/*
+ * 账号密码存储删除
+ */
+- (NSString *)getAccoutName;
+- (void)setAccount:(NSString *)account;
+- (void)removeAccount;
+
+- (NSString *)getPassword;
+- (void)setPassword:(NSString *)password;
+- (void)removePassword;
+
+
+
+
 @end
